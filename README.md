@@ -177,6 +177,32 @@ NeighborhoodWatch/
    git push -u origin feature/your-feature
    ```
 
+## TODO
+
+### Core Features
+- [ ] **Complete ZIP File Processing**: Finish implementing ZIP content reading and listing in email notifications
+- [ ] **Background Task Processing**: Implement delayed database checks after file deletion events
+- [ ] **Enhanced Database Queries**: Complete implementation of all database service methods
+- [ ] **File Event Filtering**: Add configurable file type filters (e.g., ignore temp files, specific extensions)
+
+### Enhancements
+- [ ] **Multiple Directory Monitoring**: Support monitoring multiple directories simultaneously
+- [ ] **Configuration UI**: Web-based configuration management interface
+
+### Performance & Reliability
+- [ ] **Retry Logic**: Implement retry mechanisms for failed email sends and database operations
+- [ ] **Bulk Processing**: Batch multiple file events for more efficient email notifications
+- [ ] **Health Checks**: Add health check endpoints for monitoring service status
+
+### Security & Compliance
+- [ ] **Audit Logging**: Comprehensive audit trail of all file events and actions
+
+### Testing & Documentation
+- [ ] **Unit Tests**: Comprehensive test coverage for all services
+- [ ] **Integration Tests**: End-to-end testing with test databases and email servers
+- [ ] **Performance Tests**: Load testing for high-volume file scenarios
+
+
 ## Logging
 
 The application uses structured logging with different log levels:
